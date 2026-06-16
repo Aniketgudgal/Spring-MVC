@@ -23,7 +23,10 @@
 	</div>
 	<div class = "row w-50 mx-auto mt-2">
 		<label class = "form-label" for="contact">Enter Contact Number</label>
-		<input class = "form-control" name = "contact" type = "number" value = "" />
+		<input class = "form-control" id = "con" onkeyup = "contactValidate()" name = "contact" type = "number" value = "" />
+	</div>
+	<div class = "row w-50 mx-auto mt-2">
+		<span id = "spnContact"></span>
 	</div>
 	<div class = "row w-50 mx-auto mt-2">
 		<label class = "form-label" for = "password">Enter Password</label>

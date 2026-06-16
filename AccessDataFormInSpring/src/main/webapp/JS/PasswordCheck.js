@@ -30,3 +30,17 @@ function passCheck() {
 		}
 	}
 }
+function contactValidate()
+{
+	let val = document.getElementById("con").value;
+	let re = document.getElementById("spnContact");
+	if(val.length != 10)
+	{
+		re.innerHTML = "Invalid Number";
+		re.style.color = "red";
+	}
+	else
+	{
+		re.innerHTML = "";	
+	}
+}

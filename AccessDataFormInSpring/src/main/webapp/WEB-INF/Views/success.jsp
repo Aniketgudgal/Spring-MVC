@@ -11,6 +11,5 @@
 	<h1>Name: ${register.getName()}</h1>
 	<h1>Email: ${register.getEmail()}</h1>
 	<h1>Contact: ${register.getContact()}</h1>
-	
 </body>
 </html>

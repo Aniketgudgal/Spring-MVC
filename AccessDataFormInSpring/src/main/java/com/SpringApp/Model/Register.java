@@ -12,6 +12,6 @@ import lombok.Setter;
 public class Register {
 	private String name;
 	private String email;
-	private int contact;
+	private long contact;
 	private String password;
 }

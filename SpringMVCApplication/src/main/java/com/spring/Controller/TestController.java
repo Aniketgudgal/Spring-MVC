@@ -9,7 +9,7 @@ public class TestController {
 	@GetMapping("/")
 	public String getHome()
 	{
-		return "index";
+		return "dashboard";
 	}
 	@RequestMapping("/welcome")
 	public String getWelcome()
